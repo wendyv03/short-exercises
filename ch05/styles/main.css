@@ -8,7 +8,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 	width: 90%;
-	: center;
+	justify-content: center;
 	text-align: center;
 	double-border: 1px solid rebeccapurple;
 }
@@ -17,4 +17,22 @@ html {
 }
 footer{
 	border-top: 1px solid rebeccapurple;	
+}
+main h1{
+	font-size: 150%;
+	color: rebeccapurple;
+}
+main h2{
+	font-size: 125%;
+}
+main h3{
+	font-size: 115%;
+}
+main p cite{
+	color: rebeccapurple;
+	font-weight: bold; 
+}
+footer p{
+	font-size: 90%;
+	font-weight: bold;
 }
