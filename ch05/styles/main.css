@@ -27,13 +27,16 @@ footer{
 main h1{
 	font-size: 150%;
 	color: rebeccapurple;
+	margin-bottom: 10px;
 }
 main h2{
 	font-size: 125%;
 	clear: right;
+	margin: 10px;
 }
 main h3{
 	font-size: 115%;
+	margin-bottom: 10px;
 }
 main p cite{
 	color: rebeccapurple;
@@ -44,8 +47,6 @@ footer p{
 	font-size: 90%;
 	font-weight: bold;
 }
-
-
-
-
-
+main p{
+	margin-bottom: 10px;
+}
