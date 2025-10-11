@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 }
-body img {
+main img {
 	float: left;
 }
 /* body styling*/
@@ -42,3 +42,4 @@ footer p{
 	font-size: 90%;
 	font-weight: bold;
 }
+
