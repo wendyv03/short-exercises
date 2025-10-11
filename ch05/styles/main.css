@@ -34,7 +34,7 @@ main h1{
 }
 main h2{
 	font-size: 125%;
-	clear: right;
+	clear: left;
 	margin-bottom: 10px;
 }
 main h3{
@@ -45,6 +45,7 @@ main p cite{
 	color: rebeccapurple;
 	font-weight: bold; 
 	font-style: normal;
+	clear: left;
 }
 footer p{
 	font-size: 90%;
@@ -53,5 +54,6 @@ footer p{
 main p{
 	margin-bottom: 10px;
 }
+
 
 
