@@ -10,13 +10,15 @@ body {
 	width: 90%;
 	justify-content: center;
 	text-align: center;
-	double-border: 1px solid rebeccapurple;
+	border-width: 3xp;
+	border-color: rebeccapurple;
+	border-style: double;
 }
 html {
 	background-color: aliceblue;
 }
 footer{
-	border-top: 1px solid rebeccapurple;	
+	border-top: 3px solid rebeccapurple;	
 }
 main h1{
 	font-size: 150%;
@@ -36,3 +38,4 @@ footer p{
 	font-size: 90%;
 	font-weight: bold;
 }
+
