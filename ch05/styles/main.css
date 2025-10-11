@@ -26,6 +26,7 @@ html {
 }
 footer{
 	border-top: 5px solid rebeccapurple;	
+	text-align: auto;
 }
 main h1{
 	font-size: 150%;
@@ -36,6 +37,7 @@ main h2{
 	font-size: 125%;
 	clear: left;
 	margin-bottom: 10px;
+	text-align: auto;
 }
 main h3{
 	font-size: 115%;
@@ -46,14 +48,18 @@ main p cite{
 	font-weight: bold; 
 	font-style: normal;
 	clear: left;
+	text-align: auto;
 }
 footer p{
 	font-size: 90%;
 	font-weight: bold;
+	text-align: auto;
 }
 main p{
 	margin-bottom: 10px;
+	text-align: auto;
 }
+
 
 
 
