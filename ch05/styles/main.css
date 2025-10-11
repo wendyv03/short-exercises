@@ -30,6 +30,7 @@ main h1{
 }
 main h2{
 	font-size: 125%;
+	clear: right;
 }
 main h3{
 	font-size: 115%;
@@ -43,6 +44,7 @@ footer p{
 	font-size: 90%;
 	font-weight: bold;
 }
+
 
 
 
