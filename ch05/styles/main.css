@@ -15,6 +15,9 @@ body {
 	border-color: rebeccapurple;
 	padding: 10px;
 }
+main {
+	padding: 10px;
+}
 main img {
 	float: left;
 }
@@ -50,4 +53,5 @@ footer p{
 main p{
 	margin-bottom: 10px;
 }
+
 
