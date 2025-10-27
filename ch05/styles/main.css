@@ -12,11 +12,9 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 	width: 90%;
-	margin: 20px auto;
 	background-color: white;
+	border: 10 px solid rebeccapurple
 	border-style: double;
-	border-width: 5px;
-	border-color: rebeccapurple;
 	padding: 20px;
 }
 main {
@@ -65,4 +63,5 @@ footer p{
 main p{
 	margin-top: 0;
 }
+
 
