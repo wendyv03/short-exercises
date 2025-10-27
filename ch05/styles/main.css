@@ -13,9 +13,10 @@ body {
     font-size: 100%;
 	width: 90%;
 	background-color: white;
-	border: 10px solid rebeccapurple
+	border: 15px solid rebeccapurple
 	border-style: double;
 	padding: 20px;
+	margin: 20px auto;
 }
 main {
 	padding: 20px;
@@ -63,6 +64,7 @@ footer p{
 main p{
 	margin-top: 0;
 }
+
 
 
 
