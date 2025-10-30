@@ -4,9 +4,8 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-html {
-	background-color: aliceblue;
-}
+/* html styling */
+html { background-color: aliceblue; }
 /* body styling*/
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -64,6 +63,7 @@ footer p{
 main p{
 	margin-top: 0;
 }
+
 
 
 
