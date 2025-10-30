@@ -37,17 +37,12 @@ footer{
 main h1{
 	font-size: 150%;
 	color: var(--primary-color);
-	margin-bottom: 15px;
-	clear: both;
 }
 main h2{
 	font-size: 125%;
-	margin-bottom: 15px 0 10px;
-	clear: left;
 }
 main h3{
 	font-size: 115%;
-	margin-bottom: 10px 0;
 }
 h1, h2, h3, p, blockquote, ul, li{
 	margin-bottom: 10px;	
@@ -69,5 +64,6 @@ footer p{
 main p{
 	margin-top: 0;
 }
+
 
 
