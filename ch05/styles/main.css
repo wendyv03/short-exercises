@@ -18,8 +18,7 @@ body {
     font-size: 100%;
 	width: 90%;
 	background-color: var(--light);
-	border: 10px solid var(--primary-color);
-	border-style: double;
+	border: 10px double var(--primary-color);
 	margin: 0 auto;
 	padding: 20px;
 }
@@ -32,7 +31,7 @@ main img {
 }
 footer{
 	border-top: 5px solid var(--primary-color);	
-	padding-top: 15px;
+	padding-top: 5px;
 }
 main h1{
 	font-size: 150%;
@@ -45,7 +44,7 @@ main h3{
 	font-size: 115%;
 }
 h1, h2, h3, p, blockquote, ul, li{
-	margin-bottom: 10px;	
+	margin: 7px;
 }
 ul ol {
 	padding-left: 20px;
@@ -64,6 +63,7 @@ footer p{
 main p{
 	margin-top: 0;
 }
+
 
 
 
