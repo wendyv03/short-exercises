@@ -19,7 +19,7 @@ body {
 	width: 90%;
 	background-color: var(--light);
 	border: 10px double var(--primary-color);
-	margin: 0 auto;
+	margin: 0 auto 20px auto;
 	padding: 20px;
 }
 main {
@@ -62,3 +62,4 @@ footer{
 	margin: 10px 0;
 	}
 }
+
