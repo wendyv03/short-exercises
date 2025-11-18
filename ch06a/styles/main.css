@@ -60,10 +60,10 @@ main {
 
 /* the styles for the section */
 section {
-		& h1 {
-    	width: 60%;
-    	float: right;
-		color: var(--primary-color);
+	& h1 {
+    width: 60%;
+    float: right;
+	color: var(--primary-color);
 	}
     & h2 { 
     width: 60%
@@ -103,5 +103,6 @@ footer {
 		color: white;
 		padding-bottom: 0; 
 	}
+
 
 
