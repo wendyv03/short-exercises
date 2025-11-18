@@ -68,7 +68,7 @@ section {
 /* the styles for the article */
 article {
 	width: 50%;
-    float: left;
+    float: right;
 	& img {
     	float: left;
 		border: 1px solid var(--dark);
@@ -78,7 +78,7 @@ article {
 /* the styles for the aside */
 aside {
 	width: 30%;
-    float: right;
+    float: left;
 	& h2 {
 		color: var(--primary-color);
 	}
@@ -193,6 +193,7 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
 
 
 
