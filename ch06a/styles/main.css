@@ -60,21 +60,15 @@ main {
 
 /* the styles for the section */
 section {
-	& h1 {
-    width: 60%;
+	width: 60%;
     float: right;
+	& h1 {
 	color: var(--primary-color);
 	}
-    & h2 { 
-    width: 60%;
-    float: right;
-    }
 }
 
 /* the styles for the article */
 article {
-	width: 60%;
-    float: right;
 	& img {
     	float: left;
 		margin: 0 1.5em 1em 0;
@@ -103,6 +97,7 @@ footer {
 		color: white;
 		padding-bottom: 0; 
 	}
+
 
 
 
