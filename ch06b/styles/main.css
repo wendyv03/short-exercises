@@ -61,11 +61,24 @@ header {
 main {
 	clear: left;
 }
+/* the styles for the aside */
+aside {
+	width: 25%;
+	float: left;
+	padding: 1em;
+	& h2 {
+		color: var(--primary-color);
+	}
+	& img {
+		margin-bottom: .9em;
+	}
+}
 
 /* the styles for the section */
 section {
-	width: 45%;
+	width: 50%;
 	float: left;
+	padding: 1em;
 	& h1 {
 		padding-top: .5em;
 	}
@@ -96,17 +109,7 @@ article {
 	}
 }
 
-/* the styles for the aside */
-aside {
-	width: 25%;
-	float: left;
-	& h2 {
-		color: var(--primary-color);
-	}
-	& img {
-		margin-bottom: .9em;
-	}
-}
+
 
 /* the styles for the footer */
 footer {
@@ -118,4 +121,3 @@ footer {
 		padding-bottom: 0; 
 	}
 }
-
