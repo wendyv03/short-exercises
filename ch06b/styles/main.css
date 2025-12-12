@@ -98,8 +98,8 @@ article {
 
 /* the styles for the aside */
 aside {
-	width: 15%;
-	float: right;
+	width: 25%;
+	float: left;
 	& h2 {
 		color: var(--primary-color);
 	}
@@ -110,7 +110,7 @@ aside {
 
 /* the styles for the footer */
 footer {
-	clear: all;
+	clear: both;
 	background-color: var(--primary-color);
 	& p {
 		text-align: center;
@@ -118,5 +118,6 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
 
 
