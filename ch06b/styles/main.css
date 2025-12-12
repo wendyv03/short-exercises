@@ -110,6 +110,7 @@ aside {
 
 /* the styles for the footer */
 footer {
+	clear: all;
 	background-color: var(--primary-color);
 	& p {
 		text-align: center;
@@ -117,4 +118,5 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
 
