@@ -64,6 +64,8 @@ main {
 
 /* the styles for the section */
 section {
+	width: 50%
+	float: left;
 	& h1 {
 		padding-top: .5em;
 	}
@@ -96,6 +98,8 @@ article {
 
 /* the styles for the aside */
 aside {
+	width: 15%;
+	float: right;
 	& h2 {
 		color: var(--primary-color);
 	}
@@ -113,3 +117,4 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
