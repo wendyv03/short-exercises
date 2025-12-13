@@ -98,12 +98,11 @@ aside {
 }
 #speaker_list ul li a {
 	display: block;
-	padding: 1em;
 	text-decoration: none;
 	font-weight: bold;
 	color: white;
 	background-color: var(--primary-color);
-	border-bottom: solid white;
+	border-bottom: 1px solid white;
 }
 #speaker_list ul li a:hover, #speaker_list ul li a:focus{
 	color: var(--accent-color);
