@@ -93,13 +93,21 @@ aside {
 }
 #nav_list ul{
 	list_style-type: none;
+	margin: 0;
+	padding: 0;
 }
 #nav_list ul li a {
 	display: block;
 	padding: 1em;
 	text-decoration: none;
 	font-weight: bold;
-	backgroun-color: var(--primary-color);
+	color: white;
+	background-color: var(--primary-color);
+	border-bottom: 1px solid white;
+}
+#nav_list ul li a:hover, #nav_list ul li a:focus{
+	color: var(--accent-color);
+	font-style: normal;
 }
 /* the styles for the footer */
 footer {
