@@ -91,7 +91,16 @@ aside {
 		margin-bottom: .9em;
 	}
 }
-
+#nav_list ul{
+	list_style-type: none;
+}
+#nav_list ul li a {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	font-weight: bold;
+	backgroun-color: var(--primary-color);
+}
 /* the styles for the footer */
 footer {
 	background-color: var(--primary-color);
