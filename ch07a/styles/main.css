@@ -103,7 +103,7 @@ aside {
 	font-weight: bold;
 	color: white;
 	background-color: var(--primary-color);
-	border-bottom: 1px solid white;
+	border-bottom: solid white;
 }
 #speaker_list ul li a:hover, #speaker_list ul li a:focus{
 	color: var(--accent-color);
