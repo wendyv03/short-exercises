@@ -92,7 +92,7 @@ aside {
 	}
 }
 #speaker_list ul{
-	list_style-type: none;
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
@@ -122,5 +122,3 @@ footer {
 		padding-bottom: 0; 
 	}
 }
-
-
