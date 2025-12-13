@@ -91,12 +91,12 @@ aside {
 		margin-bottom: .9em;
 	}
 }
-#nav_list ul{
+#speaker_list ul{
 	list_style-type: none;
 	margin: 0;
 	padding: 0;
 }
-#nav_list ul li a {
+#speaker_list ul li a {
 	display: block;
 	padding: 1em;
 	text-decoration: none;
@@ -105,11 +105,11 @@ aside {
 	background-color: var(--primary-color);
 	border-bottom: 1px solid white;
 }
-#nav_list ul li a:hover, #nav_list ul li a:focus{
+#speaker_list ul li a:hover, #speaker_list ul li a:focus{
 	color: var(--accent-color);
 	font-style: normal;
 }
-#nav_list ul li a.current{
+#speaker_list ul li a.current{
 	background-color: var(--accent-color);
 	color: black;
 }
@@ -122,4 +122,5 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
 
