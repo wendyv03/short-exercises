@@ -109,6 +109,10 @@ aside {
 	color: var(--accent-color);
 	font-style: normal;
 }
+#nav_list ul li a.current{
+	background-color: var(--accent-color);
+	color: black;
+}
 /* the styles for the footer */
 footer {
 	background-color: var(--primary-color);
@@ -118,3 +122,4 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
