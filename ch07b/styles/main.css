@@ -19,7 +19,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 80%;
-    margin: auto;
+    margin: 0;
     border: 3px solid var(--primary-color);
 }
 header, section, aside, footer { padding: 1em; }
@@ -161,3 +161,4 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
