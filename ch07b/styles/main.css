@@ -54,7 +54,22 @@ header {
 		width: clamp(40px, 15%, 66px);
 	}
 }
-
+/*navigation menu styling*/
+#nav_menu{
+	background-color: var(--primary-color);
+	padding: 1em 0;
+}
+/*menu styling*/
+#menu {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+/**/
+#menu li{
+	margin: 0 1em;
+	position: relative; 
+}
 /* the styles for the main element */
 main {
 	clear: left;
@@ -111,3 +126,4 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
