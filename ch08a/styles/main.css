@@ -49,8 +49,8 @@ header {
 		font-style: italic;
 	}
 	& img {
-		float: left;
-		margin: 0 30px;
+		display: block;
+		margin: 0 auto 1em auto;
 		width: clamp(40px, 15%, 66px);
 	}
 }
@@ -73,8 +73,8 @@ section {
 /* the styles for the article */
 article {
 	& img {
-		float: left;
-		margin: .25em 1em 1em 0;
+		float: none;
+		margin: 0 auto 1em auto;
 		border: 1px solid var(--dark);
 		width: min(100%, 250px);
 	}
@@ -136,5 +136,16 @@ nav {
 		aside{
 			order: 1;
 			flex-basis: 25%;	
+		}
+		article img {
+			float: left;
+			margin: .25em 1em 1em 0;
+		header img {
+			float: left;
+			margin: 0 30px 0 0;
+			width: clamp(40px, 15%, 66px);
+		}
+		header h2{
+			display: block;
 		}
 	}
