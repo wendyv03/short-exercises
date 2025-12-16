@@ -100,6 +100,7 @@ header {
 }
 .submenu li {
 	margin: 0;
+	list-style: none;
 }
 .menu li:hover > .submenu {
 	display: block;
@@ -160,6 +161,7 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
 
 
 
