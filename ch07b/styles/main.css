@@ -63,33 +63,33 @@ header {
 	padding: 1em 0;
 }
 /*menu styling*/
-#menu {
+.menu {
 	list-style: none;
 	display: flex;
 	padding: 1em 0;
 	justify-content: center;
 }
 /**/
-#menu li{
+.menu li{
 	margin: 0 1em;
 	position: relative; 
 }
-#menu a {
+.menu a {
 	text-decoration: none;
 	font-weight: normal;
 	display: block;
 	color: white;
 	padding: 0.5em 1em;
 }
-#menu a:hover {
+.menu a:hover {
 	font-style:italic;
 }
-#menu a.current{
+.menu a.current{
 	font-style: normal;
 	font-weight: bold;
 	color: var(--accent-color);
 }
-#submenu{
+.submenu{
 	background-color: var(--primary-color);
 	display: none;
 	position: absolute;
@@ -98,10 +98,10 @@ header {
 	min-width: 200px;
 	z-index: 1000;
 }
-#submenu li {
+.submenu li {
 	margin: 0;
 }
-#menu li:hover > #submenu {
+.menu li:hover > .submenu {
 	display: block;
 }
 /* the styles for the main element */
@@ -160,6 +160,7 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
 
 
 
