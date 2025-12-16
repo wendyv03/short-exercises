@@ -37,7 +37,9 @@ header {
 		var(--light-accent) 25%, 
 		var(--light) 50%, 
 		var(--light-accent) 75%, 
-		var(--accent-color) 100%);
+		var(--accent-color) 100%
+	);
+	text-align: center;
 	& h2 {
 		font-size: 175%;
 		color: var(--primary-color);
@@ -51,7 +53,7 @@ header {
 	& img {
 		display: block;
 		margin: 0 auto 1em auto;
-		width: clamp(40px, 15%, 66px);
+		width: clamp(40px, 20%, 66px);
 	}
 }
 
@@ -77,6 +79,7 @@ article {
 		margin: 0 auto 1em auto;
 		border: 1px solid var(--dark);
 		width: min(100%, 250px);
+		display: block;
 	}
 }
 
@@ -149,3 +152,4 @@ nav {
 			display: block;
 		}
 	}
+
