@@ -61,12 +61,12 @@ header {
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 1em 0;
+	width: 100%;
 }
 /*menu styling*/
 .menu {
 	list-style: none;
 	display: flex;
-	width: 100%
 	padding: 1em 0;
 	justify-content: center;
 }
@@ -162,6 +162,7 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
 
 
 
