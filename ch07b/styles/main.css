@@ -57,6 +57,9 @@ header {
 /*navigation menu styling*/
 #nav_menu{
 	background-color: var(--primary-color);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	padding: 1em 0;
 }
 /*menu styling*/
@@ -69,6 +72,28 @@ header {
 #menu li{
 	margin: 0 1em;
 	position: relative; 
+}
+#menu a {
+	text-decoration: none;
+	font-weight: normal;
+	display: block;
+	color: white;
+	padding: 0.5em 1em;
+}
+#menu a:hover {
+	font-style:italic;
+}
+#menu a.current{
+	font-style: normal;
+	font-weight: bold;
+	color: var(--accent-color);
+}
+#submenu{
+	background-color: var(--primary-color);
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
 }
 /* the styles for the main element */
 main {
@@ -126,4 +151,5 @@ footer {
 		padding-bottom: 0; 
 	}
 }
+
 
