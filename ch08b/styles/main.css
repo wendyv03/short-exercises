@@ -108,6 +108,8 @@ footer {
 /* the styles for the navigation menu */
 .navbar {
 	background-color: var(--primary-color);
+	position: relative;
+	z-index: 1000;
 	& ul {
 		list-style-type: none;
 		margin: 0;
@@ -139,7 +141,19 @@ footer {
 	z-index: 1000;
 	width: 100%;
 }
-
+.menu a{
+	display: block; 
+	color: var(--light);
+	padding: .75em;
+	text-decoration: none;
+}
+.menu li{
+	position: relative;
+}
+.menu a.current{
+	color: var(--accent-color);
+	font-weight: bold;
+}
 .menu li:has(.submenu) {
 	position: relative;
 	& small {
@@ -149,16 +163,17 @@ footer {
 		display: block;
 	}
 }
-
 .submenu {
 	position: absolute;
 	left: 0;
 	background-color: var(--primary-color);
 	color: var(--light);
 	width: 175%;
+	left: 100%;
+	z-index: 1110;
 	display: none;
 }
-.menu_button{
+.menu-btn{
 	display: block; 
 	color: var(--light);
 	background-color: var(--primary-color);
@@ -166,6 +181,22 @@ footer {
 	text-align: right;
 	padding: .75em 1em;
 	cursor: pointer;
+}
+.menu-btn::before{
+	content: "&#8801; "
+}
+#menu_t:checked + .menu-btn + .menu{
+	display: flex;
+}
+#menu_t:checked + .meu-btn::before {
+	content: "&#88;";
+}
+.menu li:has(.submenu) > a small::before{
+	content:"&#9776";;
+	margin-right: .25em;
+}
+.menu li:hover > .submenu{
+	display: block; 
 }
 /* the media query for the page */
 @media only screen and (min-width: 780px) {
@@ -183,9 +214,6 @@ footer {
 		order: 1;
 		flex-basis: 25%;
 	}
-	.menu_button{
-		display: none;
-	}
 	.menu{
 		display: flex !important;
 		flex-direction: row;
@@ -195,4 +223,16 @@ footer {
 	.menu li{
 		position: relative;
 	}
+	.menu li:has(.submenu) > a small::before {
+		content: "&#9776";
+		margin-right: .25em;
+	}
+	.menu-btn{
+		display: none;
+	}
+	.submenu{
+		top: 100%;
+		left: 0;
+	}
 }
+
