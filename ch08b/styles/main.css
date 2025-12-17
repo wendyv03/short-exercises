@@ -29,7 +29,6 @@ h1 { font-size: 150%; }
 h2 { font-size: 120%; }
 h3 { font-size: 110%; }
 a:focus, a:hover { font-style: italic; }
-
 /* the styles for the header */
 header {
 	border-bottom: 3px solid var(--primary-color);
@@ -183,7 +182,7 @@ footer {
 	cursor: pointer;
 }
 .menu-btn::before{
-	content: "&#8801; "
+	content: "&#8801;";
 }
 #menu_t:checked + .menu-btn + .menu{
 	display: flex;
@@ -192,7 +191,7 @@ footer {
 	content: "&#88;";
 }
 .menu li:has(.submenu) > a small::before{
-	content:"&#9776";;
+	content:"&#9776;";
 	margin-right: .25em;
 }
 .menu li:hover > .submenu{
@@ -224,7 +223,7 @@ footer {
 		position: relative;
 	}
 	.menu li:has(.submenu) > a small::before {
-		content: "&#9776";
+		content: "&#9776;";
 		margin-right: .25em;
 	}
 	.menu-btn{
@@ -235,4 +234,5 @@ footer {
 		left: 0;
 	}
 }
+
 
