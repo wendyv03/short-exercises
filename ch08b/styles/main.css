@@ -191,7 +191,7 @@ footer {
 	content: "&#88";
 }
 .menu li:has(.submenu) > a small::before{
-	content:"&#9776";
+	content:&#9776;
 	margin-right: .25em;
 }
 .menu li:hover > .submenu{
@@ -234,3 +234,4 @@ footer {
 		left: 0;
 	}
 }
+
