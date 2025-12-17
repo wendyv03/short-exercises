@@ -182,16 +182,16 @@ footer {
 	cursor: pointer;
 }
 .menu-btn::before{
-	content: "&#8801;";
+	content: "&#8801";
 }
 #menu_t:checked + .menu-btn + .menu{
 	display: flex;
 }
 #menu_t:checked + .meu-btn::before {
-	content: "&#88;";
+	content: "&#88";
 }
 .menu li:has(.submenu) > a small::before{
-	content:"&#9776;";
+	content:"&#9776";
 	margin-right: .25em;
 }
 .menu li:hover > .submenu{
@@ -223,7 +223,7 @@ footer {
 		position: relative;
 	}
 	.menu li:has(.submenu) > a small::before {
-		content: "&#9776;";
+		content: "&#9776";
 		margin-right: .25em;
 	}
 	.menu-btn{
@@ -234,5 +234,3 @@ footer {
 		left: 0;
 	}
 }
-
-
