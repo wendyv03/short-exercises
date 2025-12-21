@@ -187,11 +187,11 @@ footer {
 #menu_t:checked + .menu-btn + .menu{
 	display: flex;
 }
-#menu_t:checked + .meu-btn::before {
-	content: "&#88";
+#menu_t:checked + .menu-btn::before {
+	content: "✕";
 }
 .menu li:has(.submenu) > a small::before{
-	content:&#9776;
+	content: "☰";
 	margin-right: .25em;
 }
 .menu li:hover > .submenu{
@@ -234,4 +234,5 @@ footer {
 		left: 0;
 	}
 }
+
 
