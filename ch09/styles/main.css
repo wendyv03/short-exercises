@@ -194,7 +194,7 @@ footer {
 
 /* the styles for the Contact Us section */
 .contact {
-	padding: 2em 5em;	
+	padding: 2em 0.5em;	
 }
 .contact-list {
 	list-style-type: square;
@@ -212,7 +212,4 @@ footer {
 }
 .contact-list li a:hover, .contact-list li a:focus {
 	color: var(--primary-color);
-}
-.contact-list li {
-	padding-left: 0.5em;
 }
