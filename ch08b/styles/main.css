@@ -182,7 +182,7 @@ footer {
 	cursor: pointer;
 }
 .menu-btn::before{
-	content: "&#8801";
+	content: "☰";
 }
 #menu-t:checked + .menu-btn + .menu{
 	display: flex;
@@ -227,7 +227,7 @@ footer {
 		position: relative;
 	}
 	.menu li:has(.submenu) > a small::before {
-		content: "&#9776";
+		content: "☰";
 		margin-right: .25em;
 	}
 	.menu-btn{
@@ -238,6 +238,3 @@ footer {
 		left: 0;
 	}
 }
-
-
-
