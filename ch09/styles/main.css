@@ -200,9 +200,11 @@ footer {
 	list-style-type: square;
 	padding: 0;
 	margin-left: 2em;
+	color: black;
 }
 .contact-list li {
 	margin-bottom: 1em;
+	padding-left: 0.5em;
 }
 .contact-list li a {
 	text-decoration: underline;
@@ -215,3 +217,4 @@ footer {
 .contact-list li {
 	padding-left: 0.5em;
 }
+
