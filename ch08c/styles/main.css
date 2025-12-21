@@ -115,9 +115,11 @@ footer {
 /* the styles for the navigation menu */
 .navbar {
 	background-color: var(--primary-color);
+	position: relative;
 	& ul {
 		list-style-type: none;
 		margin: 0;
+		padding: 0;
 	}
 	& a {
 		display: block;
@@ -132,10 +134,81 @@ footer {
 	& a.current:hover { 
 		font-style: normal; /* override hover effect */
 	}
+
+	& .menu-btn {
+		display: block;
+		font-size: 1.5em;
+		cursor: pointer;
+		color: var(--light);
+		padding: .75em;
+	}
+	& .menu {
+		display: none;
+		position: absolute;
+		flex-direction: column;
+		background-color: var(--primary-color);
+		top: 100%;
+		left: 0;
+		width: 200px;
+		z-index: 1000;
+	}
+ 	& input[type="checkbox"]:checked + .menu-btn + .menu {
+	 	display: flex;
+ 	}
+	& input[type="checkbox"]:checked + .menu-btn::after {
+		display: inline-block;
+		margin-left: 0.5em;
+		content: "\2715";
+	}
+	& .menu li:has(ul) > a::after {
+		margin-left: .25em;
+		content: "\25B6";
+	}
+	& .menu li ul {
+		display: none;
+		position: absolute;
+		background-color: var(--primary-color);
+		flex-direction: column;
+		left: 100%;
+		top: 0;
+		z-index: 1000;
+	}
+	& .menu li:hover > ul {
+		display: flex;
+	}
 }
 
 .menu {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+}
+@container (min-width: 560px) {
+	.navbar {
+		& .menu {
+			display: flex;
+			flex-direction: row;
+			width: auto;
+			position: static;
+			background-color: transparent;
+		}
+		& .menu-btn {
+			display: none;
+		}
+		& .menu li:has(ul) > a::after {
+			content: "\25BC";
+		}
+		& .menu li ul {
+			display: none;
+			position: absolute;
+			flex-direction: column;
+			left: 0; 
+			top: 100%;
+			background-color: var(--primary-color);
+			z-index: 1000;
+		}
+		& .menu li:hover > ul {
+			display: flex;
+		}
+	}
 }
