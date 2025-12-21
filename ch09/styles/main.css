@@ -207,15 +207,12 @@ footer {
 	padding-left: 0.5em;
 }
 .contact-list li a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: var(--accent-color);
 }
 .contact-list li a:hover, .contact-list li a:focus {
-	text-decoration: none;
 	color: var(--primary-color);
 }
 .contact-list li {
 	padding-left: 0.5em;
 }
-
-
