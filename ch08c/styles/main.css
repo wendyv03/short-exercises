@@ -134,7 +134,9 @@ footer {
 	& a.current:hover { 
 		font-style: normal; /* override hover effect */
 	}
-
+	& input[type="checkbox"] {
+		display: none;
+	}
 	& .menu-btn {
 		display: block;
 		font-size: 1.5em;
@@ -212,4 +214,5 @@ footer {
 		}
 	}
 }
+
 
