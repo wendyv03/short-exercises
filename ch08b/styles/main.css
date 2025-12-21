@@ -86,9 +86,6 @@ aside {
 	& h2 {
 		color: var(--primary-color);
 	}
-	& img {
-		margin-bottom: .9em;
-	}
 	& blockquote {
 		font-style: italic;
 		margin-left: .5em;
@@ -109,6 +106,7 @@ footer {
 	background-color: var(--primary-color);
 	position: relative;
 	z-index: 1000;
+	
 	& ul {
 		list-style-type: none;
 		margin: 0;
@@ -127,49 +125,8 @@ footer {
 		font-style: normal; /* override hover effect */
 	}
 }
-#menu-t {
-	display: none;
-}
 
-.menu {
-	display: none;
-	background-color: var(--primary-color);
-	flex-direction: column;
-	position: absolute;
-	left: 0;
-	z-index: 1000;
-	width: 100%;
-}
-.menu a{
-	display: block; 
-	color: var(--light);
-	padding: .75em;
-	text-decoration: none;
-}
-.menu li{
-	position: relative;
-}
-.menu a.current{
-	color: var(--accent-color);
-	font-weight: bold;
-}
-.menu li:has(.submenu) {
-	position: relative;
-	& small {
-		margin-left: .25em; /* add space for arrow */
-	}
-	&:hover > .submenu {
-		display: block;
-	}
-}
-.submenu {
-	position: absolute;
-	left: 0;
-	background-color: var(--primary-color);
-	color: var(--light);
-	width: 175%;
-	left: 100%;
-	z-index: 1110;
+#menu-t {
 	display: none;
 }
 .menu-btn{
@@ -180,26 +137,48 @@ footer {
 	text-align: right;
 	padding: .75em 1em;
 	cursor: pointer;
-}
-.menu-btn::before{
+	
+	&::before{
 	content: "☰";
+	}
 }
 #menu-t:checked + .menu-btn + .menu{
 	display: flex;
+	flex-direction: column;
 }
 #menu-t:checked + .menu-btn::before {
 	content: "✕";
 }
+.menu {
+	display: none;
+	background-color: var(--primary-color);
+	flex-direction: column;
+	position: absolute;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+ li{
+	position: relative;
+}
 .menu li:has(.submenu) > a small::before{
-	content: "☰";
+	content: ">";
 	margin-right: .25em;
 }
-.menu li:hover > .submenu{
+ &:hover > .submenu{
 	display: block; 
 	position: absolute;
 	left: 100%;
 	top: 0;
 	z-index: 1100;
+	}
+	}
+}
+.submenu {
+	display: none;
+	background-color: var(--primary-color);
+	color: var(--light);
+	width: 175%;
+	display: none;
 }
 /* the media query for the page */
 @media only screen and (min-width: 780px) {
@@ -222,19 +201,19 @@ footer {
 		flex-direction: row;
 		justify-content: space-evenly;
 		position: static;
+		
+	 li:has(.submenu) > a small::before {
+		content: "►";
+		 margin-left: .25em;
 	}
-	.menu li{
-		position: relative;
-	}
-	.menu li:has(.submenu) > a small::before {
-		content: "☰";
-		margin-right: .25em;
+	li:hover > .submenu {
+		display: block;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		}
 	}
 	.menu-btn{
 		display: none;
-	}
-	.submenu{
-		top: 100%;
-		left: 0;
 	}
 }
