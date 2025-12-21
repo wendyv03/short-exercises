@@ -158,11 +158,11 @@ footer {
 	& input[type="checkbox"]:checked + .menu-btn::after {
 		display: inline-block;
 		margin-left: 0.5em;
-		content: "\2715";
+		content: "\\2715";
 	}
 	& .menu li:has(ul) > a::after {
 		margin-left: .25em;
-		content: "\25B6";
+		content: "\\25B6";
 	}
 	& .menu li ul {
 		display: none;
@@ -196,7 +196,7 @@ footer {
 			display: none;
 		}
 		& .menu li:has(ul) > a::after {
-			content: "\25BC";
+			content: "\\25BC";
 		}
 		& .menu li ul {
 			display: none;
